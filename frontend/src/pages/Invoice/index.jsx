@@ -7,6 +7,7 @@ import { useMoney, useDate } from '@/settings';
 import InvoiceDataTableModule from '@/modules/InvoiceModule/InvoiceDataTableModule';
 
 export default function Invoice() {
+  const cost_mail = "";
   const translate = useLanguage();
   const { dateFormat } = useDate();
   const entity = 'invoice';
